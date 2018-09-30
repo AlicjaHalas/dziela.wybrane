@@ -1,0 +1,119 @@
+*{
+margin:0;
+padding:0;
+box-sizing: border-box;
+}
+/*
+color-pink: #FFD0C0
+*/
+body{
+  background-image: url("../images/blue-sky.jpg");
+  background-size: cover;
+  background-repeat:no-repeat;
+}
+.padding{
+padding-top: 25px;
+}
+.main-width{
+  width: 1024px;
+  margin: 0 auto;
+}
+header{
+  background-color: rgba(0, 0, 0, 0.15);
+height: 50px;
+width: 100%;
+font-family: Arial, sans-serif;
+text-transform: uppercase;
+display: flex;
+justify-content: space-between;
+align-items: center;
+position: fixed;
+top:0%;
+}
+div.flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  flex-wrap: wrap;
+}
+nav.header__container{
+width: 410px;
+}
+.header__navigation {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.header__list-item {
+}
+.header__link {
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
+  list-style: none;
+  font-weight: normal;
+  position: relative;
+}
+.slasher{
+  padding-top: 50px;
+}
+.first-foto{
+height: 650px;
+background-image: url("../images/dziela_wybrane.jpg");
+background-size: contain;
+background-repeat:no-repeat;
+background-position: top center;
+}
+.articles{
+  background-color: rgba(255, 208, 192, 1);
+
+}
+.about{
+margin-right: 10px;
+padding: 10px;
+}
+.gallery{
+}
+h1#gallery{
+
+}
+.gallery-foto{
+  border: 1px black solid;
+  height: 330px;
+  width: 330px;
+  margin-top: 10px;
+  margin-left: 10px;
+  background-color: white;
+}
+.foto-1{
+  margin-left: 0px;
+}
+.foto-4{
+  margin-left: 0px;
+}
+.films{
+}
+.film-left-side{
+  width: 50%;
+  padding-right: 10px;
+}
+.film-right-side{
+  width: 50%;
+  padding-left: 10px;
+}
+iframe{
+  height: 400px;
+  width: 100%;
+}
+footer{
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 20px;
+
+}
+.fab{
+  font-size: 70px;
+  color: black;
+  padding: 15px;
+}
